@@ -38,11 +38,11 @@ typedef struct {
 	const void *cmd;
 } Sp;
 
-const char *spcmd1[] = { "alacritty", "-o", "window.dimensions.rows=34", "window.dimensions.columns=120", "--class", "spterm1" };
-const char *spcmd2[] = { "alacritty", "-o", "window.dimensions.rows=34", "window.dimensions.columns=120", "--class", "spterm2" };
-const char *spcmd3[] = { "alacritty", "-o", "window.dimensions.rows=35", "window.dimensions.columns=145", "--class", "spbtop",  "--hold", "-e", "btop" };
-const char *spcmd4[] = { "alacritty", "-o", "window.dimensions.rows=30", "window.dimensions.columns=130", "--class", "spfile",  "--hold", "-e", "ranger" };
-const char *spcmd5[] = { "alacritty", "-o", "window.dimensions.rows=15", "window.dimensions.columns=70",  "--class", "sppulse", "--hold", "-e", "pulsemixer" };
+const char *spcmd1[] = { "kitty", "--class", "spterm1" };
+const char *spcmd2[] = { "kitty", "--class", "spterm2" };
+const char *spcmd3[] = { "kitty", "--class", "spbtop",  "-e", "btop" };
+const char *spcmd4[] = { "kitty", "--class", "spfile",  "-e", "ranger" };
+const char *spcmd5[] = { "kitty", "--class", "sppulse", "-e", "pulsemixer" };
 
 static Sp scratchpads[] = {
 	/* name          cmd  */
