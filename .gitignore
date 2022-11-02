@@ -2,5 +2,6 @@
 *.rej
 *.orig
 .directory
+autostart.sh
 config.h
 
