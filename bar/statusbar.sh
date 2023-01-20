@@ -9,11 +9,9 @@
 # *-------------------------------------------------*
 
 # Load colors
-# . $HOME/.local/src/dwm/bar/themes/gruv
 # . $HOME/.local/src/dwm/bar/themes/nord
-. $HOME/.local/src/dwm/bar/themes/onedark
-# . $HOME/.local/src/dwm/bar/themes/oceanic-next
-# . $HOME/.local/src/dwm/bar/themes/serenade
+# . $HOME/.local/src/dwm/bar/themes/onedark
+. $HOME/.local/src/dwm/bar/themes/serenade
 
 interval=0
 

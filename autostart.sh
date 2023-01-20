@@ -36,13 +36,13 @@ run "xfce4-power-manager"
 ### Polkit authentication agent ###
 # run "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
 run "/usr/lib/polkit-kde-authentication-agent-1"
-run "/usr/lib/org_kde_powerdevil"
+# run "/usr/lib/org_kde_powerdevil"
 
 
 ### Wallpapers & Conkies ###
 run "nitrogen --restore"
 # run "conky -c $HOME/.config/dwm/conky/qlock_two.conkyrc"
-# run "conky -c $HOME/.local/src/dwm/conky/simple.conkyrc"
+run "conky -c $HOME/.local/src/dwm/conky/simple.conkyrc"
 
 
 ### Compositor ###
@@ -53,5 +53,5 @@ picom --experimental-backends --config ~/.config/picom/picom.conf &
 xrdb -load ~/.config/X11/xresources &
 
 
-# imwheel -b 45 &
+imwheel -b 45 &
 # qbittorrent &
